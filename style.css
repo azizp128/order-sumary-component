@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Red Hat Display", Courier, monospace;
+  font-size: 16px;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 550px;
+}
+
+.card-img img {
+  width: inherit;
+  height: inherit;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-img {
+  width: 350px;
+  height: 200px;
+}
+
+.card-details {
+  text-align: center;
+  background-color: white;
+  height: 350px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-details h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.card-details > p {
+  font-weight: 200;
+  color: hsl(224, 23%, 55%);
+}
+
+.card-details .music {
+  margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.card-details .music img {
+  width: 40px;
+}
+
+.card-details .music .price {
+  margin-left: -90px;
+}
+
+.card-details .music .price p:first-child {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.card-details .music .price p:last-child {
+  position: relative;
+  color: hsl(180, 3%, 60%);
+  top: -6px;
+  left: 20px;
+}
+
+.card-details .music a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+}
+
+.card-details .music a:hover {
+  color: hsl(245, 75%, 70%);
+  text-decoration: none;
+}
+
+.card-details button {
+  width: 300px;
+  height: 40px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0;
+  margin: 20px;
+  box-shadow: 10px 10px 8px #cacaca;
+}
+
+.card-details button:hover {
+  background-color: hsla(245, 75%, 80%);
+}
+
+.card-details a[class="order"] {
+  color: hsl(223, 27%, 53%);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.card-details a[class="order"]:hover {
+  color: hsl(180, 1%, 17%);
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
