@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [SOLUTION](https://www.frontendmentor.io/solutions/order-summary-card-component-using-css-flexbox-Hz-Zfd5g4C)
+- Live Site URL: [LIVE SITE](https://jazzy-zuccutto-ef32cd.netlify.app/)
 
 ## My process
 
